@@ -1,93 +1,87 @@
-# HRMS (Human Resource Management System)
+# Human Resource Management 
 
-A Laravel-based HR management system for managing employees, departments, and time-off requests.
+Le module (Human Resource Management System) permet aux entreprises de gérer efficacement leurs employés, départements, et hiérarchies. Ce projet est développé sous Laravel 11 en suivant les bonnes pratiques et en utilisant des packages adaptés pour simplifier la gestion des rôles, des documents, des présences, et des notifications.
 
-## Prerequisites
-
-- PHP 8.1+
-- Laravel 10.x
-- MySQL 5.7+ or PostgreSQL 12+
-- Composer
-- Node.js & NPM
+---
 
 ## Installation
 
-```bash
-# Clone repository
-git clone https://github.com/AymanElh/HRMS.git
-cd HRMS
+1. **Cloner**
 
-# Install dependencies
+   ```bash
+   git clone https://github.com/rayan4-dot/HRMS.git
+   cd mybrief
+Installer les Dépendances Backend Installez les dépendances PHP du projet via Composer :
+
+
 composer install
-npm install
+Installer les Dépendances Frontend Installez les dépendances JavaScript et compilez les assets :
 
-# Configure environment
+
+npm install
+npm run build
+Configurer l'Environnement Copiez le fichier .env.example vers un fichier .env et générez la clé de l'application :
+
+
 cp .env.example .env
 php artisan key:generate
+Ensuite, modifiez le fichier .env pour configurer votre base de données et les autres paramètres nécessaires, comme les informations de connexion SMTP si vous utilisez les notifications par email.
 
-# Run migrations and seeders
+Exécuter les Migrations et Seeders Appliquez les migrations pour créer les tables dans la base de données :
+
+
 php artisan migrate
-php artisan db:seed 
-```
+Si des seeders sont nécessaires pour peupler la base de données avec des données par défaut, exécutez-les :
 
-## Environment Configuration
 
-```env
-# Database
+php artisan db:seed
+Démarrer le Serveur de Développement Lancez le serveur local de Laravel :
+php artisan serve
+L'application sera maintenant accessible à l'adresse http://localhost:8000.
+
+Configuration de l'Environnement
+Le fichier .env contient des variables importantes que vous devez configurer :
+
+Base de données : Assurez-vous que les paramètres de la base de données sont corrects.
+
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=hrms
+DB_DATABASE=company
 DB_USERNAME=root
 DB_PASSWORD=
 
-# Mail Configuration
-MAIL_MAILER=smtp
-MAIL_HOST=smtp.gmail.com
-MAIL_PORT=587
-MAIL_USERNAME=your-email@gmail.com
-MAIL_PASSWORD=your-app-specific-password
-MAIL_ENCRYPTION=tls
-MAIL_FROM_ADDRESS=your-email@gmail.com
-MAIL_FROM_NAME="${APP_NAME}"
-```
+Routes et Contrôleurs
+Les routes du projet sont organisées en fonction des rôles des utilisateurs (Admin, Manager, HR, Employee). Voici un résumé des routes disponibles :
 
-## Available Endpoints
+Routes d'authentification
+/login : Page de connexion
+/dashboard : Tableau de bord accessible aux utilisateurs authentifiés
+Routes Admin
+/departments : Gestion des départements
+/jobs : Gestion des postes
+/contracts : Gestion des contrats
+/formations : Gestion des formations
+Routes HR
+/vacation-approvals : Gestion des approbations de congés
+/recovery-approval : Gestion des approbations de jours de récupération
+Routes Manager
+/employees : Gestion des employés
+/vacation-approvals : Approbation des congés des employés
+Routes Employé
+/vacations : Demande de congé
+/recovery-days : Demande de jours de récupération
+/profile : Profil de l'employé
+Routes pour Exporter les Données
+/employees/export : Export des données des employés au format Excel
+Routes d'Organigramme
+/hierarchy : Affiche l'organigramme de l'entreprise
+Structure des Fichiers
+Voici la structure de base des répertoires et fichiers dans le projet :
 
-### Auth Routes
-- `/login`
-- `/dashboard`
-
-### Admin Routes
-- `/departments`
-- `/formations`
-- `/jobs`
-- `/contracts`
-
-### HR Routes
-- `/recovery-days-approvals`
-- `/vacation-approvals`
-- `/employees`
-
-### Manager Routes
-- `/employees`
-- `/vacation-approvals`
-
-### Employee Routes
-- `/vacations`
-- `/recovery-days`
-- `/profile`
-
-## Required Seeders
-
-```bash
-# Run all seeders
-php artisan db:seed
-
-# Or run specific seeders
-php artisan db:seed --class=RoleSeeder
-```
-
-## License
-
-This project is licensed under the MIT License.
+app/Http/Controllers/ : Contient les contrôleurs pour gérer les différentes fonctionnalités (ex. EmployeeController, DashboardController).
+app/Livewire/ : Contient les composants Livewire pour la gestion des départements, postes, contrats, et formations.
+resources/views/ : Les vues de l'application (utilisées avec Blade ou Livewire).
+routes/web.php : Définit toutes les routes de l'application, protégées par les rôles des utilisateurs.
+database/migrations/ : Les fichiers de migration pour créer les tables de la base de données.
+app/Exports/ : Contient la classe pour exporter les employés en fichier Excel.

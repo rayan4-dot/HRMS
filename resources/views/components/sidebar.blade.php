@@ -144,6 +144,17 @@
                     </a>
                 </li>
             @endcan
+            <!-- New link accessible to everyone -->
+            <li>
+                <a href="{{ route('organigram.hierarchy') }}" class="block px-4 py-2.5 rounded-lg hover:bg-orange-100 text-gray-700 hover:text-orange-600 transition-colors font-medium">
+                    <div class="flex items-center">
+                        <svg class="w-5 h-5 mr-3 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7h18M3 4h18M4 4v17m4-7v7m4-10v10m4-13v13"></path>
+                        </svg>
+                        Organigram
+                    </div>
+                </a>
+            </li>
         </ul>
     </nav>
 </div>

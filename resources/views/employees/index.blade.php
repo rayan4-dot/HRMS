@@ -43,6 +43,14 @@
 
         <!-- Add Employee -->
         <div class="flex justify-between items-center">
+
+        <a href="{{ route('employees.export') }}" 
+   class="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-lg shadow-sm transition-all duration-300 ease-in-out flex items-center">
+    <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+    </svg>
+    Export to Excel
+</a>
             <h2 class="text-2xl font-bold text-gray-800">Manage Employees</h2>
             <a href="{{ route('employees.create') }}" 
                class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-lg shadow-sm transition-all duration-300 ease-in-out flex items-center">

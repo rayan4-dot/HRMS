@@ -6,7 +6,7 @@ use Livewire\Component;
 use App\Models\VacationRequest;
 use Illuminate\Support\Facades\Auth;
 
-class VacationApprovals extends Component
+class VacApproval extends Component
 {
     public $showRejectModal = false;
     public $selectedRequestId;
