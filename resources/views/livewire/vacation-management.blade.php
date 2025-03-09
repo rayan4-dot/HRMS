@@ -70,10 +70,14 @@
                             <span class="text-red-500 text-sm mt-2">{{ $message }}</span>
                         @enderror
                     </div>
+<<<<<<< HEAD
 <!-- Above the submit button in your form -->
 <div class="bg-gray-50 p-4 rounded-lg text-gray-700 border border-gray-200 text-lg mb-6">
     Available Days: <span class="font-bold text-orange-500">{{ number_format($vacationBalance->current_balance, 1) }}</span>
 </div>
+=======
+
+>>>>>>> 37450748 (Save changes before switching branches)
                     <button type="submit"
                             class="w-full py-4 px-6 rounded-lg text-lg font-semibold text-white bg-orange-500 hover:bg-orange-600 focus:ring-2 focus:ring-orange-400 transition-all duration-300">
                         Submit Request

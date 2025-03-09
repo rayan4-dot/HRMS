@@ -144,6 +144,7 @@
                     </a>
                 </li>
             @endcan
+<<<<<<< HEAD
             <!-- New link accessible to everyone -->
             <li>
                 <a href="{{ route('organigram.hierarchy') }}" class="block px-4 py-2.5 rounded-lg hover:bg-orange-100 text-gray-700 hover:text-orange-600 transition-colors font-medium">
@@ -155,6 +156,8 @@
                     </div>
                 </a>
             </li>
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         </ul>
     </nav>
 </div>

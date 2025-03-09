@@ -284,6 +284,7 @@
             "install-path": "../carbonphp/carbon-doctrine-types"
         },
         {
+<<<<<<< HEAD
             "name": "composer/pcre",
             "version": "3.3.2",
             "version_normalized": "3.3.2.0",
@@ -450,6 +451,8 @@
             "install-path": "./semver"
         },
         {
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             "name": "dasprid/enum",
             "version": "1.0.6",
             "version_normalized": "1.0.6.0",
@@ -893,6 +896,7 @@
             "install-path": "../egulias/email-validator"
         },
         {
+<<<<<<< HEAD
             "name": "ezyang/htmlpurifier",
             "version": "v4.18.0",
             "version_normalized": "4.18.0.0",
@@ -957,6 +961,8 @@
             "install-path": "../ezyang/htmlpurifier"
         },
         {
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             "name": "fakerphp/faker",
             "version": "v1.24.1",
             "version_normalized": "1.24.1.0",
@@ -3270,6 +3276,7 @@
             "install-path": "../livewire/livewire"
         },
         {
+<<<<<<< HEAD
             "name": "maatwebsite/excel",
             "version": "3.1.64",
             "version_normalized": "3.1.64.0",
@@ -3548,6 +3555,8 @@
             "install-path": "../markbaker/matrix"
         },
         {
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             "name": "mobiledetect/mobiledetectlib",
             "version": "4.8.09",
             "version_normalized": "4.8.09.0",
@@ -4653,6 +4662,7 @@
             "install-path": "../php-debugbar/php-debugbar"
         },
         {
+<<<<<<< HEAD
             "name": "phpoffice/phpspreadsheet",
             "version": "1.29.10",
             "version_normalized": "1.29.10.0",
@@ -4762,6 +4772,8 @@
             "install-path": "../phpoffice/phpspreadsheet"
         },
         {
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             "name": "phpoption/phpoption",
             "version": "1.9.3",
             "version_normalized": "1.9.3.0",

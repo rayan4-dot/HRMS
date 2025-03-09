@@ -3,7 +3,11 @@
         'name' => 'laravel/laravel',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
+<<<<<<< HEAD
         'reference' => '374507480ae7e4fb497d6517a8d0393d559fdd28',
+=======
+        'reference' => '7f5ef2589fc02ce6c6c1415475dbd15f9b8b7c84',
+>>>>>>> 37450748 (Save changes before switching branches)
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -46,6 +50,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'composer/pcre' => array(
             'pretty_version' => '3.3.2',
             'version' => '3.3.2.0',
@@ -64,6 +69,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'cordoval/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -130,6 +137,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'ezyang/htmlpurifier' => array(
             'pretty_version' => 'v4.18.0',
             'version' => '4.18.0.0',
@@ -139,6 +147,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'fakerphp/faker' => array(
             'pretty_version' => 'v1.24.1',
             'version' => '1.24.1.0',
@@ -460,7 +470,11 @@
         'laravel/laravel' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
+<<<<<<< HEAD
             'reference' => '374507480ae7e4fb497d6517a8d0393d559fdd28',
+=======
+            'reference' => '7f5ef2589fc02ce6c6c1415475dbd15f9b8b7c84',
+>>>>>>> 37450748 (Save changes before switching branches)
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -610,6 +624,7 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+<<<<<<< HEAD
         'maatwebsite/excel' => array(
             'pretty_version' => '3.1.64',
             'version' => '3.1.64.0',
@@ -646,6 +661,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'mobiledetect/mobiledetectlib' => array(
             'pretty_version' => '4.8.09',
             'version' => '4.8.09.0',
@@ -778,6 +795,7 @@
             'aliases' => array(),
             'dev_requirement' => true,
         ),
+<<<<<<< HEAD
         'phpoffice/phpspreadsheet' => array(
             'pretty_version' => '1.29.10',
             'version' => '1.29.10.0',
@@ -787,6 +805,8 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'phpoption/phpoption' => array(
             'pretty_version' => '1.9.3',
             'version' => '1.9.3.0',

@@ -70,6 +70,7 @@
       0 => 'Livewire\\LivewireServiceProvider',
     ),
   ),
+<<<<<<< HEAD
   'maatwebsite/excel' => 
   array (
     'aliases' => 
@@ -81,6 +82,8 @@
       0 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
     ),
   ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
   'nesbot/carbon' => 
   array (
     'providers' => 

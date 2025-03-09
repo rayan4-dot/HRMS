@@ -43,6 +43,7 @@
 
         <!-- Add Employee -->
         <div class="flex justify-between items-center">
+<<<<<<< HEAD
 
         <a href="{{ route('employees.export') }}" 
    class="bg-green-500 hover:bg-green-600 text-white px-6 py-2.5 rounded-lg shadow-sm transition-all duration-300 ease-in-out flex items-center">
@@ -51,6 +52,8 @@
     </svg>
     Export to Excel
 </a>
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             <h2 class="text-2xl font-bold text-gray-800">Manage Employees</h2>
             <a href="{{ route('employees.create') }}" 
                class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-lg shadow-sm transition-all duration-300 ease-in-out flex items-center">

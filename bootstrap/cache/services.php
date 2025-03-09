@@ -33,6 +33,7 @@
     29 => 'Laravel\\Telescope\\TelescopeServiceProvider',
     30 => 'Laravel\\Tinker\\TinkerServiceProvider',
     31 => 'Livewire\\LivewireServiceProvider',
+<<<<<<< HEAD
     32 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
     33 => 'Carbon\\Laravel\\ServiceProvider',
     34 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
@@ -41,6 +42,15 @@
     37 => 'App\\Providers\\AppServiceProvider',
     38 => 'App\\Providers\\FortifyServiceProvider',
     39 => 'App\\Providers\\JetstreamServiceProvider',
+=======
+    32 => 'Carbon\\Laravel\\ServiceProvider',
+    33 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    34 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    35 => 'Spatie\\Permission\\PermissionServiceProvider',
+    36 => 'App\\Providers\\AppServiceProvider',
+    37 => 'App\\Providers\\FortifyServiceProvider',
+    38 => 'App\\Providers\\JetstreamServiceProvider',
+>>>>>>> 37450748 (Save changes before switching branches)
   ),
   'eager' => 
   array (
@@ -61,6 +71,7 @@
     14 => 'Laravel\\Sanctum\\SanctumServiceProvider',
     15 => 'Laravel\\Telescope\\TelescopeServiceProvider',
     16 => 'Livewire\\LivewireServiceProvider',
+<<<<<<< HEAD
     17 => 'Maatwebsite\\Excel\\ExcelServiceProvider',
     18 => 'Carbon\\Laravel\\ServiceProvider',
     19 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
@@ -69,6 +80,15 @@
     22 => 'App\\Providers\\AppServiceProvider',
     23 => 'App\\Providers\\FortifyServiceProvider',
     24 => 'App\\Providers\\JetstreamServiceProvider',
+=======
+    17 => 'Carbon\\Laravel\\ServiceProvider',
+    18 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
+    19 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    20 => 'Spatie\\Permission\\PermissionServiceProvider',
+    21 => 'App\\Providers\\AppServiceProvider',
+    22 => 'App\\Providers\\FortifyServiceProvider',
+    23 => 'App\\Providers\\JetstreamServiceProvider',
+>>>>>>> 37450748 (Save changes before switching branches)
   ),
   'deferred' => 
   array (

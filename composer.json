@@ -12,7 +12,10 @@
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.9",
         "livewire/livewire": "^3.5",
+<<<<<<< HEAD
         "maatwebsite/excel": "^3.1",
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         "spatie/laravel-permission": "^6.15"
     },
     "require-dev": {

@@ -23,7 +23,10 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         '2203a247e6fda86070a5e4e07aed533a' => __DIR__ . '/..' . '/symfony/clock/Resources/now.php',
         '09f6b20656683369174dd6fa83b7e5fb' => __DIR__ . '/..' . '/symfony/polyfill-uuid/bootstrap.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
+<<<<<<< HEAD
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '476ca15b8d69b04665cd879be9cb4c68' => __DIR__ . '/..' . '/laravel/framework/src/Illuminate/Collections/functions.php',
@@ -50,10 +53,13 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             'voku\\' => 5,
         ),
+<<<<<<< HEAD
         'Z' => 
         array (
             'ZipStream\\' => 10,
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'W' => 
         array (
             'Whoops\\' => 7,
@@ -116,7 +122,10 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
             'PragmaRX\\Google2FA\\' => 19,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
+<<<<<<< HEAD
             'PhpOffice\\PhpSpreadsheet\\' => 25,
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             'ParagonIE\\ConstantTime\\' => 23,
         ),
         'N' => 
@@ -127,8 +136,11 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             'Monolog\\' => 8,
             'Mockery\\' => 8,
+<<<<<<< HEAD
             'Matrix\\' => 7,
             'Maatwebsite\\Excel\\' => 18,
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         ),
         'L' => 
         array (
@@ -188,9 +200,12 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'C' => 
         array (
             'Cron\\' => 5,
+<<<<<<< HEAD
             'Composer\\Semver\\' => 16,
             'Composer\\Pcre\\' => 14,
             'Complex\\' => 8,
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
@@ -211,10 +226,13 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/voku/portable-ascii/src/voku',
         ),
+<<<<<<< HEAD
         'ZipStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
@@ -408,10 +426,13 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
+<<<<<<< HEAD
         'PhpOffice\\PhpSpreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'ParagonIE\\ConstantTime\\' => 
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
@@ -428,6 +449,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
         ),
+<<<<<<< HEAD
         'Matrix\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
@@ -436,6 +458,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/maatwebsite/excel/src',
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'Livewire\\' => 
         array (
             0 => __DIR__ . '/..' . '/livewire/livewire/src',
@@ -593,6 +617,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron',
         ),
+<<<<<<< HEAD
         'Composer\\Semver\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/semver/src',
@@ -605,6 +630,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         array (
             0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
         ),
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'Carbon\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
@@ -632,6 +659,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         ),
     );
 
+<<<<<<< HEAD
     public static $prefixesPsr0 = array (
         'H' => 
         array (
@@ -642,6 +670,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         ),
     );
 
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
     public static $classMap = array (
         'App\\Actions\\Fortify\\CreateNewUser' => __DIR__ . '/../..' . '/app/Actions/Fortify/CreateNewUser.php',
         'App\\Actions\\Fortify\\PasswordValidationRules' => __DIR__ . '/../..' . '/app/Actions/Fortify/PasswordValidationRules.php',
@@ -657,13 +687,23 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'App\\Livewire\\DepartmentManagement' => __DIR__ . '/../..' . '/app/Livewire/DepartmentManagement.php',
         'App\\Livewire\\EmployeeForm' => __DIR__ . '/../..' . '/app/Livewire/EmployeeForm.php',
         'App\\Livewire\\EmployeeFormations' => __DIR__ . '/../..' . '/app/Livewire/EmployeeFormations.php',
+<<<<<<< HEAD
+=======
+        'App\\Livewire\\ExtraWorkDaysManagement' => __DIR__ . '/../..' . '/app/Livewire/ExtraWorkDaysManagement.php',
+>>>>>>> 37450748 (Save changes before switching branches)
         'App\\Livewire\\FormationAssignmentModal' => __DIR__ . '/../..' . '/app/Livewire/FormationAssignmentModal.php',
         'App\\Livewire\\FormationManagement' => __DIR__ . '/../..' . '/app/Livewire/FormationManagement.php',
         'App\\Livewire\\JobManagement' => __DIR__ . '/../..' . '/app/Livewire/JobManagement.php',
         'App\\Livewire\\OrganizationChart' => __DIR__ . '/../..' . '/app/Livewire/OrganizationChart.php',
         'App\\Livewire\\RecoveryDaysApprovals' => __DIR__ . '/../..' . '/app/Livewire/RecoveryDaysApprovals.php',
         'App\\Livewire\\RecoveryRequest' => __DIR__ . '/../..' . '/app/Livewire/RecoveryRequest.php',
+<<<<<<< HEAD
         'App\\Livewire\\VacationManagement' => __DIR__ . '/../..' . '/app/Livewire/VacationManagement.php',
+=======
+        'App\\Livewire\\VacationApprovals' => __DIR__ . '/../..' . '/app/Livewire/VacationApprovals.php',
+        'App\\Livewire\\VacationManagement' => __DIR__ . '/../..' . '/app/Livewire/VacationManagement.php',
+        'App\\Livewire\\VacationRequestForm' => __DIR__ . '/../..' . '/app/Livewire/VacationRequestForm.php',
+>>>>>>> 37450748 (Save changes before switching branches)
         'App\\Mail\\ResetPassword' => __DIR__ . '/../..' . '/app/Mail/ResetPassword.php',
         'App\\Models\\Contract' => __DIR__ . '/../..' . '/app/Models/Contract.php',
         'App\\Models\\ContractType' => __DIR__ . '/../..' . '/app/Models/ContractType.php',
@@ -894,6 +934,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'Carbon\\Unit' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Unit.php',
         'Carbon\\WeekDay' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/WeekDay.php',
         'Carbon\\WrapperClock' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/WrapperClock.php',
+<<<<<<< HEAD
         'Complex\\Complex' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Complex.php',
         'Complex\\Exception' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Exception.php',
         'Complex\\Functions' => __DIR__ . '/..' . '/markbaker/complex/classes/src/Functions.php',
@@ -928,6 +969,9 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'Composer\\Semver\\Intervals' => __DIR__ . '/..' . '/composer/semver/src/Intervals.php',
         'Composer\\Semver\\Semver' => __DIR__ . '/..' . '/composer/semver/src/Semver.php',
         'Composer\\Semver\\VersionParser' => __DIR__ . '/..' . '/composer/semver/src/VersionParser.php',
+=======
+        'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+>>>>>>> 37450748 (Save changes before switching branches)
         'Cron\\AbstractField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
         'Cron\\DayOfMonthField' => __DIR__ . '/..' . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -1831,6 +1875,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'GuzzleHttp\\TransferStats' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/TransferStats.php',
         'GuzzleHttp\\UriTemplate\\UriTemplate' => __DIR__ . '/..' . '/guzzlehttp/uri-template/src/UriTemplate.php',
         'GuzzleHttp\\Utils' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Utils.php',
+<<<<<<< HEAD
         'HTMLPurifier' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.php',
         'HTMLPurifier_Arborize' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php',
         'HTMLPurifier_AttrCollections' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php',
@@ -2063,6 +2108,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'HTMLPurifier_VarParser_Flexible' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php',
         'HTMLPurifier_VarParser_Native' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php',
         'HTMLPurifier_Zipper' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier/Zipper.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'Hamcrest\\Arrays\\IsArray' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
         'Hamcrest\\Arrays\\IsArrayContaining' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
         'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => __DIR__ . '/..' . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -4480,6 +4527,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'Livewire\\WithPagination' => __DIR__ . '/..' . '/livewire/livewire/src/WithPagination.php',
         'Livewire\\WithoutUrlPagination' => __DIR__ . '/..' . '/livewire/livewire/src/WithoutUrlPagination.php',
         'Livewire\\Wrapped' => __DIR__ . '/..' . '/livewire/livewire/src/Wrapped.php',
+<<<<<<< HEAD
         'Maatwebsite\\Excel\\Cache\\BatchCache' => __DIR__ . '/..' . '/maatwebsite/excel/src/Cache/BatchCache.php',
         'Maatwebsite\\Excel\\Cache\\BatchCacheDeprecated' => __DIR__ . '/..' . '/maatwebsite/excel/src/Cache/BatchCacheDeprecated.php',
         'Maatwebsite\\Excel\\Cache\\CacheManager' => __DIR__ . '/..' . '/maatwebsite/excel/src/Cache/CacheManager.php',
@@ -4653,6 +4701,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'Matrix\\Operators\\Multiplication' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Operators/Multiplication.php',
         'Matrix\\Operators\\Operator' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Operators/Operator.php',
         'Matrix\\Operators\\Subtraction' => __DIR__ . '/..' . '/markbaker/matrix/classes/src/Operators/Subtraction.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
         'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
         'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => __DIR__ . '/..' . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -5978,6 +6028,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'PharIo\\Version\\VersionConstraintParser' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintParser.php',
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
+<<<<<<< HEAD
         'PhpOffice\\PhpSpreadsheet\\Calculation\\ArrayEnabled' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/ArrayEnabled.php',
         'PhpOffice\\PhpSpreadsheet\\Calculation\\BinaryComparison' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/BinaryComparison.php',
         'PhpOffice\\PhpSpreadsheet\\Calculation\\Calculation' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php',
@@ -6484,6 +6535,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream0' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream0.php',
         'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream2' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream2.php',
         'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream3' => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream3.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'PhpOption\\LazyOption' => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption/LazyOption.php',
         'PhpOption\\None' => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption/None.php',
         'PhpOption\\Option' => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption/Option.php',
@@ -8454,6 +8507,7 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'Whoops\\Util\\Misc' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/Misc.php',
         'Whoops\\Util\\SystemFacade' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
         'Whoops\\Util\\TemplateHelper' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+<<<<<<< HEAD
         'ZipStream\\CentralDirectoryFileHeader' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/CentralDirectoryFileHeader.php',
         'ZipStream\\CompressionMethod' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/CompressionMethod.php',
         'ZipStream\\DataDescriptor' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/DataDescriptor.php',
@@ -8481,6 +8535,8 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         'ZipStream\\Zip64\\ExtendedInformationExtraField' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/Zip64/ExtendedInformationExtraField.php',
         'ZipStream\\ZipStream' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/ZipStream.php',
         'ZipStream\\Zs\\ExtendedInformationExtraField' => __DIR__ . '/..' . '/maennchen/zipstream-php/src/Zs/ExtendedInformationExtraField.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
         'staabm\\SideEffectsDetector\\SideEffect' => __DIR__ . '/..' . '/staabm/side-effects-detector/lib/SideEffect.php',
         'staabm\\SideEffectsDetector\\SideEffectsDetector' => __DIR__ . '/..' . '/staabm/side-effects-detector/lib/SideEffectsDetector.php',
         'voku\\helper\\ASCII' => __DIR__ . '/..' . '/voku/portable-ascii/src/voku/helper/ASCII.php',
@@ -8491,7 +8547,10 @@ class ComposerStaticInite9cfe52816831bf6ba471182a946eb76
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInite9cfe52816831bf6ba471182a946eb76::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInite9cfe52816831bf6ba471182a946eb76::$prefixDirsPsr4;
+<<<<<<< HEAD
             $loader->prefixesPsr0 = ComposerStaticInite9cfe52816831bf6ba471182a946eb76::$prefixesPsr0;
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
             $loader->classMap = ComposerStaticInite9cfe52816831bf6ba471182a946eb76::$classMap;
 
         }, null, ClassLoader::class);

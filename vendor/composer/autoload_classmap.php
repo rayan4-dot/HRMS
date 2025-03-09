@@ -20,13 +20,23 @@ return array(
     'App\\Livewire\\DepartmentManagement' => $baseDir . '/app/Livewire/DepartmentManagement.php',
     'App\\Livewire\\EmployeeForm' => $baseDir . '/app/Livewire/EmployeeForm.php',
     'App\\Livewire\\EmployeeFormations' => $baseDir . '/app/Livewire/EmployeeFormations.php',
+<<<<<<< HEAD
+=======
+    'App\\Livewire\\ExtraWorkDaysManagement' => $baseDir . '/app/Livewire/ExtraWorkDaysManagement.php',
+>>>>>>> 37450748 (Save changes before switching branches)
     'App\\Livewire\\FormationAssignmentModal' => $baseDir . '/app/Livewire/FormationAssignmentModal.php',
     'App\\Livewire\\FormationManagement' => $baseDir . '/app/Livewire/FormationManagement.php',
     'App\\Livewire\\JobManagement' => $baseDir . '/app/Livewire/JobManagement.php',
     'App\\Livewire\\OrganizationChart' => $baseDir . '/app/Livewire/OrganizationChart.php',
     'App\\Livewire\\RecoveryDaysApprovals' => $baseDir . '/app/Livewire/RecoveryDaysApprovals.php',
     'App\\Livewire\\RecoveryRequest' => $baseDir . '/app/Livewire/RecoveryRequest.php',
+<<<<<<< HEAD
     'App\\Livewire\\VacationManagement' => $baseDir . '/app/Livewire/VacationManagement.php',
+=======
+    'App\\Livewire\\VacationApprovals' => $baseDir . '/app/Livewire/VacationApprovals.php',
+    'App\\Livewire\\VacationManagement' => $baseDir . '/app/Livewire/VacationManagement.php',
+    'App\\Livewire\\VacationRequestForm' => $baseDir . '/app/Livewire/VacationRequestForm.php',
+>>>>>>> 37450748 (Save changes before switching branches)
     'App\\Mail\\ResetPassword' => $baseDir . '/app/Mail/ResetPassword.php',
     'App\\Models\\Contract' => $baseDir . '/app/Models/Contract.php',
     'App\\Models\\ContractType' => $baseDir . '/app/Models/ContractType.php',
@@ -257,6 +267,7 @@ return array(
     'Carbon\\Unit' => $vendorDir . '/nesbot/carbon/src/Carbon/Unit.php',
     'Carbon\\WeekDay' => $vendorDir . '/nesbot/carbon/src/Carbon/WeekDay.php',
     'Carbon\\WrapperClock' => $vendorDir . '/nesbot/carbon/src/Carbon/WrapperClock.php',
+<<<<<<< HEAD
     'Complex\\Complex' => $vendorDir . '/markbaker/complex/classes/src/Complex.php',
     'Complex\\Exception' => $vendorDir . '/markbaker/complex/classes/src/Exception.php',
     'Complex\\Functions' => $vendorDir . '/markbaker/complex/classes/src/Functions.php',
@@ -291,6 +302,9 @@ return array(
     'Composer\\Semver\\Intervals' => $vendorDir . '/composer/semver/src/Intervals.php',
     'Composer\\Semver\\Semver' => $vendorDir . '/composer/semver/src/Semver.php',
     'Composer\\Semver\\VersionParser' => $vendorDir . '/composer/semver/src/VersionParser.php',
+=======
+    'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+>>>>>>> 37450748 (Save changes before switching branches)
     'Cron\\AbstractField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/AbstractField.php',
     'Cron\\CronExpression' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/CronExpression.php',
     'Cron\\DayOfMonthField' => $vendorDir . '/dragonmantank/cron-expression/src/Cron/DayOfMonthField.php',
@@ -1194,6 +1208,7 @@ return array(
     'GuzzleHttp\\TransferStats' => $vendorDir . '/guzzlehttp/guzzle/src/TransferStats.php',
     'GuzzleHttp\\UriTemplate\\UriTemplate' => $vendorDir . '/guzzlehttp/uri-template/src/UriTemplate.php',
     'GuzzleHttp\\Utils' => $vendorDir . '/guzzlehttp/guzzle/src/Utils.php',
+<<<<<<< HEAD
     'HTMLPurifier' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier.php',
     'HTMLPurifier_Arborize' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php',
     'HTMLPurifier_AttrCollections' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php',
@@ -1426,6 +1441,8 @@ return array(
     'HTMLPurifier_VarParser_Flexible' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php',
     'HTMLPurifier_VarParser_Native' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php',
     'HTMLPurifier_Zipper' => $vendorDir . '/ezyang/htmlpurifier/library/HTMLPurifier/Zipper.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
     'Hamcrest\\Arrays\\IsArray' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArray.php',
     'Hamcrest\\Arrays\\IsArrayContaining' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContaining.php',
     'Hamcrest\\Arrays\\IsArrayContainingInAnyOrder' => $vendorDir . '/hamcrest/hamcrest-php/hamcrest/Hamcrest/Arrays/IsArrayContainingInAnyOrder.php',
@@ -3843,6 +3860,7 @@ return array(
     'Livewire\\WithPagination' => $vendorDir . '/livewire/livewire/src/WithPagination.php',
     'Livewire\\WithoutUrlPagination' => $vendorDir . '/livewire/livewire/src/WithoutUrlPagination.php',
     'Livewire\\Wrapped' => $vendorDir . '/livewire/livewire/src/Wrapped.php',
+<<<<<<< HEAD
     'Maatwebsite\\Excel\\Cache\\BatchCache' => $vendorDir . '/maatwebsite/excel/src/Cache/BatchCache.php',
     'Maatwebsite\\Excel\\Cache\\BatchCacheDeprecated' => $vendorDir . '/maatwebsite/excel/src/Cache/BatchCacheDeprecated.php',
     'Maatwebsite\\Excel\\Cache\\CacheManager' => $vendorDir . '/maatwebsite/excel/src/Cache/CacheManager.php',
@@ -4016,6 +4034,8 @@ return array(
     'Matrix\\Operators\\Multiplication' => $vendorDir . '/markbaker/matrix/classes/src/Operators/Multiplication.php',
     'Matrix\\Operators\\Operator' => $vendorDir . '/markbaker/matrix/classes/src/Operators/Operator.php',
     'Matrix\\Operators\\Subtraction' => $vendorDir . '/markbaker/matrix/classes/src/Operators/Subtraction.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
     'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegration' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegration.php',
     'Mockery\\Adapter\\Phpunit\\MockeryPHPUnitIntegrationAssertPostConditions' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryPHPUnitIntegrationAssertPostConditions.php',
     'Mockery\\Adapter\\Phpunit\\MockeryTestCase' => $vendorDir . '/mockery/mockery/library/Mockery/Adapter/Phpunit/MockeryTestCase.php',
@@ -5341,6 +5361,7 @@ return array(
     'PharIo\\Version\\VersionConstraintParser' => $vendorDir . '/phar-io/version/src/VersionConstraintParser.php',
     'PharIo\\Version\\VersionConstraintValue' => $vendorDir . '/phar-io/version/src/VersionConstraintValue.php',
     'PharIo\\Version\\VersionNumber' => $vendorDir . '/phar-io/version/src/VersionNumber.php',
+<<<<<<< HEAD
     'PhpOffice\\PhpSpreadsheet\\Calculation\\ArrayEnabled' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/ArrayEnabled.php',
     'PhpOffice\\PhpSpreadsheet\\Calculation\\BinaryComparison' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/BinaryComparison.php',
     'PhpOffice\\PhpSpreadsheet\\Calculation\\Calculation' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Calculation/Calculation.php',
@@ -5847,6 +5868,8 @@ return array(
     'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream0' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream0.php',
     'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream2' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream2.php',
     'PhpOffice\\PhpSpreadsheet\\Writer\\ZipStream3' => $vendorDir . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Writer/ZipStream3.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
     'PhpOption\\LazyOption' => $vendorDir . '/phpoption/phpoption/src/PhpOption/LazyOption.php',
     'PhpOption\\None' => $vendorDir . '/phpoption/phpoption/src/PhpOption/None.php',
     'PhpOption\\Option' => $vendorDir . '/phpoption/phpoption/src/PhpOption/Option.php',
@@ -7817,6 +7840,7 @@ return array(
     'Whoops\\Util\\Misc' => $vendorDir . '/filp/whoops/src/Whoops/Util/Misc.php',
     'Whoops\\Util\\SystemFacade' => $vendorDir . '/filp/whoops/src/Whoops/Util/SystemFacade.php',
     'Whoops\\Util\\TemplateHelper' => $vendorDir . '/filp/whoops/src/Whoops/Util/TemplateHelper.php',
+<<<<<<< HEAD
     'ZipStream\\CentralDirectoryFileHeader' => $vendorDir . '/maennchen/zipstream-php/src/CentralDirectoryFileHeader.php',
     'ZipStream\\CompressionMethod' => $vendorDir . '/maennchen/zipstream-php/src/CompressionMethod.php',
     'ZipStream\\DataDescriptor' => $vendorDir . '/maennchen/zipstream-php/src/DataDescriptor.php',
@@ -7844,6 +7868,8 @@ return array(
     'ZipStream\\Zip64\\ExtendedInformationExtraField' => $vendorDir . '/maennchen/zipstream-php/src/Zip64/ExtendedInformationExtraField.php',
     'ZipStream\\ZipStream' => $vendorDir . '/maennchen/zipstream-php/src/ZipStream.php',
     'ZipStream\\Zs\\ExtendedInformationExtraField' => $vendorDir . '/maennchen/zipstream-php/src/Zs/ExtendedInformationExtraField.php',
+=======
+>>>>>>> 37450748 (Save changes before switching branches)
     'staabm\\SideEffectsDetector\\SideEffect' => $vendorDir . '/staabm/side-effects-detector/lib/SideEffect.php',
     'staabm\\SideEffectsDetector\\SideEffectsDetector' => $vendorDir . '/staabm/side-effects-detector/lib/SideEffectsDetector.php',
     'voku\\helper\\ASCII' => $vendorDir . '/voku/portable-ascii/src/voku/helper/ASCII.php',

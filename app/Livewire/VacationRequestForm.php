@@ -3,9 +3,14 @@
 namespace App\Livewire;
 
 use Livewire\Component;
+<<<<<<< HEAD
 use App\Models\VacationBalance;
 
 class VacationForm extends Component
+=======
+
+class VacationRequestForm extends Component
+>>>>>>> 37450748 (Save changes before switching branches)
 {
     public $startDate, $endDate, $reason, $currentBalance, $totalDays;
 
