@@ -1,4 +1,3 @@
-
 # Human Resource Management (HRMS)
 
 Le module **Human Resource Management System (HRMS)** permet aux entreprises de gérer efficacement leurs employés, départements, et hiérarchies. Ce projet est développé sous **Laravel 11** en suivant les bonnes pratiques et en utilisant des packages adaptés pour simplifier la gestion des rôles, des documents, des présences, et des notifications.
