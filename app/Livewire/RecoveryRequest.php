@@ -29,7 +29,7 @@ class RecoveryRequest extends Component
     {
         $this->validate();
 
-        // Fetch balance with a null check
+
         $balanceRecord = RecoveryBalance::where('employee_id', $this->employee->id)->first();
         
         if (!$balanceRecord) {
@@ -39,7 +39,7 @@ class RecoveryRequest extends Component
 
         $balance = $balanceRecord->current_balance;
 
-        // Calculate working days (excluding weekends)
+
         $days = Carbon::parse($this->start_date)->diffInDaysFiltered(function (Carbon $date) {
             return !$date->isWeekend();
         }, Carbon::parse($this->end_date));
@@ -49,16 +49,16 @@ class RecoveryRequest extends Component
             return;
         }
 
-        // Create the recovery request
+
         RecoveryRequest::create([
             'employee_id' => $this->employee->id,
             'start_date'  => $this->start_date,
             'end_date'    => $this->end_date,
-            'days'        => $days, // Use filtered days (excluding weekends)
+            'days'        => $days, 
             'status'      => 'pending',
         ]);
 
-        // Optionally update the balance (if this is part of your logic)
+
         $balanceRecord->current_balance -= $days;
         $balanceRecord->save();
 
